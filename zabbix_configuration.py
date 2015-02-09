@@ -134,7 +134,7 @@ def main():
   try:
     with open(module.params.get('filename')) as f:
       content=f.read()
-      print zbx.configuration.import_( {
+      zbx.configuration.import_( {
         'format': module.params.get('format'),
         'rules': rules,
         'source': content
