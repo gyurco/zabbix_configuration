@@ -25,7 +25,7 @@ DOCUMENTATION = '''
 module: zabbix_configuration
 short_description: Import Zabbix configurations
 description:
-    - This module will let you import Zabbix exported configurations from or and json sources.
+    - This module will let you import Zabbix exported configurations from xml or json sources.
 author: Gyorgy Szombathelyi
 requirements:
     - zabbix-api python module
